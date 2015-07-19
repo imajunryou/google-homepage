@@ -1,0 +1,63 @@
+html {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+.logo {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    padding-top: 112px;
+    width: 269px;
+}
+
+.search {
+    text-align: center;
+}
+
+.search input {
+    width: 480px;
+    height: 25px;
+}
+
+.options_holder {
+    text-align: right;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.options div {
+    vertical-align: middle;
+    text-align: right;
+    min-width: 60px;
+    padding-left: 15px;
+}
+
+.disclaimers {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+    margin-left: -10px;
+}
+
+.business {
+    padding-left: 20px;
+    float: left;
+}
+
+.user {
+    float: right;
+    padding-right: 20px;
+}
