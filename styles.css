@@ -22,6 +22,16 @@ html {
     height: 25px;
 }
 
+.search button {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 0 8px;
+    margin: 11px 8px;
+    min-width: 54px;
+    height: 29px;
+}
+
 .options_holder {
     text-align: right;
     padding-top: 15px;
@@ -38,8 +48,9 @@ html {
 .options div {
     vertical-align: middle;
     text-align: right;
-    min-width: 60px;
+    min-width: 45px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .disclaimers {
@@ -60,4 +71,30 @@ html {
 .user {
     float: right;
     padding-right: 20px;
+}
+
+.apps {
+    height: 30px;
+    width: 30px;
+    background-image: url("i1_0430b5ba.png");
+    background-position: -132px -38px;
+}
+
+.images a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.images a:hover{
+    text-decoration: underline;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #000;
+}
+
+.mail a:hover {
+    text-decoration: underline;
 }
